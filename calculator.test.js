@@ -101,7 +101,7 @@ describe('modulus', () => {
 });
 
   test('cannot find the remainder when dividing by zero', () => {
-    expect(modulus(10,0)).toBe(NaN)
+    expect(modulus(10,0)).toBeNaN
   });
 });
 
